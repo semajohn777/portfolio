@@ -12,16 +12,16 @@ const Footer = () => {
         <li><a href="#">Home</a> </li>
         <li><a href="#about">About</a> </li>
         <li><a href="#exp">Experience</a> </li>
-        <li><a href="#service">Services</a> </li>
+        {/* <li><a href="#service">Services</a> </li> */}
         <li><a href="#portfolio">Portfolio</a> </li>
-        <li><a href="#testimonial">Testimonial</a> </li>
+        <li><a href="#">Testimonial</a> </li>
         <li><a href="#contact">Contact</a> </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com"><BsFacebook/></a>
-        <a href="https://facebook.com"><BsInstagram/></a>
-        <a href="https://facebook.com"><BsTwitter/></a>
+        <a href="https://m.me/john.agbudumhe"><BsFacebook/></a>
+        <a href="https://m.me/john.agbudumhe"><BsInstagram/></a>
+        <a href="https://m.me/john.agbudumhe"><BsTwitter/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; John Portfolio. All right reserved.</small>

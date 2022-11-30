@@ -31,9 +31,9 @@ const Contact = () => {
             
         <GoMail className='contact__option-icons'/>
         <h4>Email</h4>
-        <h5>myemail.com</h5>
+        <h5>My Email.com</h5>
         <a href="mailto:johnagbudumhe@gmail.com" rel="noreferrer" target='_blank'>
-          send a massage
+          send a message
         </a>
 
         </article>
@@ -44,9 +44,9 @@ const Contact = () => {
             <h4>
               Whatsapp
             </h4>
-            <h5>mywhatsapp</h5>
+            <h5>My Whatsapp</h5>
             <a href="https://api.whatsapp.com/send?phone=+2349029943550" rel="noreferrer" target='_blank'>
-              send a massage
+              send a message
             </a>
     
             </article>
@@ -55,9 +55,9 @@ const Contact = () => {
             
             <BsFacebook className='contact__option-icons'/>
             <h4>Messenger</h4>
-            <h5>my facebook name</h5>
+            <h5>My facebook</h5>
             <a href="https://m.me/john.agbudumhe" rel="noreferrer" target='_blank'>
-              send a massage
+              send a message
             </a>
     
             </article>
@@ -65,7 +65,7 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail}>
         <input type="text" name='name' placeholder='Your name' />
 
-        <input type="email" name='name' placeholder='Your name' />
+        <input type="email" name='name' placeholder='Your Email' />
 
         <textarea name="message" id="" cols="30" rows="10"></textarea>
         <button type='submit' className='btn btn-primary'>Submit</button>

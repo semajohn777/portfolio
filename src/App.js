@@ -16,10 +16,10 @@ function App() {
     <div className="App">
     <Header/>
     <About/>
-    <Contact/>
     <Exp/>
     <Navbar/>
     <Potofolio/>
+    <Contact/>
 
   
       <Footer />

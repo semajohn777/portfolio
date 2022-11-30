@@ -33,7 +33,7 @@ const Exp = () => {
             <div>
 
             <h4>Boostrap</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'>Experience</small>
             </div>
           </article>
 
@@ -41,7 +41,7 @@ const Exp = () => {
             <AiFillCheckCircle className="details__icons"/>
             <div>
             <h4>Java script</h4>
-            <small className='text-light'>Intermediate</small>
+            <small className='text-light'>Experience</small>
             </div>
               
           </article>
